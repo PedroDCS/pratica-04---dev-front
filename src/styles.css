@@ -66,3 +66,10 @@ dialog::backdrop { background: rgb(0 0 0 / .55); }
   .nav-list { display: none; position: absolute; right: 0; top: 3rem; flex-direction: column; min-width: 220px; padding: 1rem; background: var(--bg); border: 1px solid var(--border); border-radius: .75rem; }
   .nav-list.is-open { display: flex; }
 }
+
+@media (max-width: 420px) {
+  .header-content { gap: .5rem; }
+  .brand { font-size: .95rem; }
+  .hero { padding: 3rem 0; }
+  .button { width: 100%; text-align: center; }
+}
