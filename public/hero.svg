@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-labelledby="title desc">
+<title id="title">Pessoas colaborando</title><desc id="desc">Ilustração abstrata de três pessoas conectadas por elementos de tecnologia.</desc>
+<rect width="560" height="360" rx="32" fill="#eef4ff"/>
+<circle cx="170" cy="125" r="42" fill="#005fcc"/><circle cx="280" cy="105" r="42" fill="#7b61ff"/><circle cx="390" cy="135" r="42" fill="#00a37a"/>
+<path d="M110 270c10-70 110-70 120 0M220 270c10-85 110-85 120 0M330 270c10-70 110-70 120 0" fill="none" stroke="#212121" stroke-width="18" stroke-linecap="round"/>
+<path d="M195 160L255 135M310 135l55 25" stroke="#ffb300" stroke-width="10" stroke-linecap="round"/>
+</svg>

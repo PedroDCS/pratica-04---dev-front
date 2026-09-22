@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portal institucional fictício de ONG desenvolvido para a Experiência Prática IV de Desenvolvimento Front-end." />
+    <title>Instituto Conecta Futuro</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo principal</a>
+    <header class="site-header">
+      <div class="container header-content">
+        <a class="brand" href="#inicio" aria-label="Instituto Conecta Futuro - página inicial">Conecta Futuro</a>
+        <nav aria-label="Navegação principal">
+          <button id="menuButton" class="menu-button" type="button" aria-expanded="false" aria-controls="mainNav">Menu</button>
+          <ul id="mainNav" class="nav-list">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#voluntariado">Voluntariado</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="Ativar modo escuro">🌙</button>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section id="inicio" class="hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Tecnologia com impacto social</p>
+            <h1 id="hero-title">Conectamos pessoas, conhecimento e oportunidades.</h1>
+            <p>Uma página institucional fictícia criada para demonstrar boas práticas de front-end, acessibilidade, versionamento e deploy.</p>
+            <a class="button" href="#voluntariado">Quero ser voluntário</a>
+          </div>
+          <img src="/hero.svg" alt="Ilustração de pessoas colaborando em um projeto social" width="560" height="360" />
+        </div>
+      </section>
+
+      <section id="sobre" class="section" aria-labelledby="sobre-title">
+        <div class="container">
+          <h2 id="sobre-title">Sobre o instituto</h2>
+          <p>O Instituto Conecta Futuro é uma organização fictícia dedicada à inclusão digital, educação tecnológica e apoio a comunidades.</p>
+        </div>
+      </section>
+
+      <section id="projetos" class="section alt" aria-labelledby="projetos-title">
+        <div class="container">
+          <h2 id="projetos-title">Projetos em destaque</h2>
+          <div class="cards">
+            <article class="card"><h3>Inclusão Digital</h3><p>Oficinas gratuitas de informática básica e cidadania digital.</p></article>
+            <article class="card"><h3>Jovem Dev</h3><p>Introdução à programação para estudantes da rede pública.</p></article>
+            <article class="card"><h3>Reuso Consciente</h3><p>Recuperação e doação de computadores para famílias e escolas.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="voluntariado" class="section" aria-labelledby="vol-title">
+        <div class="container narrow">
+          <h2 id="vol-title">Seja voluntário</h2>
+          <form id="volunteerForm" novalidate>
+            <div class="field">
+              <label for="name">Nome completo</label>
+              <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="nameHelp" />
+              <small id="nameHelp">Informe como você gostaria de ser chamado.</small>
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="emailHelp" />
+              <small id="emailHelp">Usaremos este endereço apenas para contato.</small>
+            </div>
+            <div class="field">
+              <label for="area">Área de interesse</label>
+              <select id="area" name="area" required>
+                <option value="">Selecione</option>
+                <option>Educação</option>
+                <option>Tecnologia</option>
+                <option>Comunicação</option>
+              </select>
+            </div>
+            <button class="button" type="submit">Enviar interesse</button>
+            <p id="formStatus" class="status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section id="contato" class="section alt" aria-labelledby="contato-title">
+        <div class="container">
+          <h2 id="contato-title">Contato</h2>
+          <p>E-mail: contato@conectafuturo.org.br</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="container"><p>© 2026 Instituto Conecta Futuro. Projeto acadêmico fictício.</p></div></footer>
+
+    <dialog id="thanksDialog" aria-labelledby="dialogTitle">
+      <h2 id="dialogTitle">Cadastro recebido</h2>
+      <p>Obrigado pelo interesse em participar do projeto.</p>
+      <button id="closeDialog" class="button" type="button">Fechar</button>
+    </dialog>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
