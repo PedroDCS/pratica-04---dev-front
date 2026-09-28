@@ -58,3 +58,6 @@ O projeto foi preparado para publicação na Vercel. Em um repositório GitHub, 
 
 ## Release atual
 `v1.0.0`
+
+## Autor
+Usuário Git utilizado no histórico local: `pedro.soares`.
